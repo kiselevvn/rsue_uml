@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="372px" preserveAspectRatio="none" style="width:1215px;height:372px;background:#FFFFFF;" version="1.1" viewBox="0 0 1215 372" width="1215px" zoomAndPan="magnify"><defs><filter height="300%" id="f1u2fpkvt2no1b" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="483" x="359.9536" y="18.6855">Диаграмма вариантов использования сайта РГЭУ(РИНХ)</text><!--MD5=[7acbc48b08a6115d6c9ec7ad4d3b30cc]
+entity employee--><ellipse cx="495" cy="161.1406" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M495,169.1406 L495,196.1406 M482,177.1406 L508,177.1406 M495,196.1406 L482,211.1406 M495,196.1406 L508,211.1406 " fill="none" filter="url(#f1u2fpkvt2no1b)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="460" y="231.1738">Сотрудник</text><!--MD5=[3a97ee507a2567319ae9a2f540b0a5e1]
+entity teacher--><ellipse cx="295" cy="161.1406" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M295,169.1406 L295,196.1406 M282,177.1406 L308,177.1406 M295,196.1406 L282,211.1406 M295,196.1406 L308,211.1406 " fill="none" filter="url(#f1u2fpkvt2no1b)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="243.5" y="231.1738">Преподователь</text><!--MD5=[0bc547216396b1ae8e8279bf1212b736]
+entity student--><ellipse cx="781" cy="161.1406" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M781,169.1406 L781,196.1406 M768,177.1406 L794,177.1406 M781,196.1406 L768,211.1406 M781,196.1406 L794,211.1406 " fill="none" filter="url(#f1u2fpkvt2no1b)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="753.5" y="231.1738">Студент</text><ellipse cx="218.0257" cy="60.1458" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="135.5257" ry="29.5051" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="238" x="99.0257" y="63.8743">Просмотр нормативных документов</text><ellipse cx="494.8456" cy="60.3097" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="106.3456" ry="23.6691" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="407.3456" y="64.0383">Просмотр медиа контента</text><ellipse cx="1082.2036" cy="60.1741" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="121.7036" ry="28.0335" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1001.7036" y="55.886">Просмотр информации</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1033.7036" y="73.4954">для студентов</text><ellipse cx="780.7887" cy="59.8984" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="144.2887" ry="31.2577" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="703.2887" y="54.8222">Просмотр информации</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="680.2887" y="72.4316">о структурных подразделениях</text><ellipse cx="820.8188" cy="327.8044" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="136.3188" ry="29.6638" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="724.3188" y="323.5163">Использование подсистемы</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="731.3188" y="341.1257">расписания для студентов</text><ellipse cx="156.2286" cy="327.5863" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="150.2286" ry="32.4457" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="62.7286" y="322.5102">Использование подсистемы</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="48.2286" y="340.1195">расписания для преподователей</text><ellipse cx="494.8592" cy="327.8125" fill="#FEFECE" filter="url(#f1u2fpkvt2no1b)" rx="153.8592" ry="33.1718" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="401.3592" y="322.7363">Использование подсистемы</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229" x="382.3592" y="340.3457">расписания 'занятость аудиторий'</text><!--MD5=[d318c53f60a389dc55534f0af3f6c17f]
+reverse link UC1 to employee--><path d="M291.15,95.7306 C345.61,121.4906 417.55,155.5106 459.79,175.4906 " fill="none" id="UC1-backto-employee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="288.14,102.0606,273.06,87.1806,294.13,89.4006,288.14,102.0606" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e628c808e8887efbdfdcc0e40ff2cf52]
+reverse link UC1 to teacher--><path d="M244.89,106.8906 C253.4,121.3606 262.73,137.2406 271.02,151.3406 " fill="none" id="UC1-backto-teacher" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="238.81,110.3506,234.71,89.5706,250.88,103.2606,238.81,110.3506" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[de7cd2c5b189ed9eaef1700c956a12b0]
+reverse link UC1 to student--><path d="M328.29,86.8006 C461.52,117.8006 677.26,168.0006 753.36,185.7106 " fill="none" id="UC1-backto-student" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="326.35,93.5406,308.46,82.1906,329.52,79.9006,326.35,93.5406" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78a2a0187dbce0e567a44135a5f4a317]
+reverse link UC2 to employee--><path d="M495,103.9006 C495,119.1706 495,136.3306 495,151.4206 " fill="none" id="UC2-backto-employee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="488,103.6606,495,83.6606,502,103.6606,488,103.6606" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a25683aa41c3b495e8eb5309c87ad497]
+reverse link UC2 to teacher--><path d="M444.97,93.9106 C415.05,113.5106 377.11,138.3606 346.87,158.1606 " fill="none" id="UC2-backto-teacher" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="441.41,87.8706,461.97,82.7706,449.08,99.5906,441.41,87.8706" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a53241fdc1e300109d85d24358a046d2]
+reverse link UC2 to student--><path d="M558.01,90.0006 C619.02,117.9506 708.68,159.0106 753.45,179.5206 " fill="none" id="UC2-backto-student" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="554.96,96.3006,539.69,81.6106,560.79,83.5706,554.96,96.3006" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1677cface1c4a30cde21edd6698598d0]
+reverse link UC3 to student--><path d="M1008.1,93.3006 C943.64,121.3606 853.61,160.5406 808.73,180.0706 " fill="none" id="UC3-backto-student" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1005.66,86.7306,1026.79,85.1706,1011.25,99.5706,1005.66,86.7306" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d6cc7df19f8d9351ef6615bd7df7de8c]
+reverse link UC4 to employee--><path d="M701.99,97.3306 C645.78,123.0806 572.95,156.4406 530.36,175.9506 " fill="none" id="UC4-backto-employee" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="699.25,90.8906,720.35,88.9206,705.08,103.6106,699.25,90.8906" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4b3a9d3990471604910780bba573f894]
+reverse link UC4 to teacher--><path d="M671.86,90.0406 C605.39,107.7006 518.75,130.8206 442,151.6406 C410.32,160.2306 374.84,170.0006 346.68,177.7906 " fill="none" id="UC4-backto-teacher" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="670.25,83.2306,691.37,84.8606,673.84,96.7606,670.25,83.2306" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[588955c0c415df7da620dfdc5f49abf6]
+reverse link UC4 to student--><path d="M781,111.9406 C781,124.9406 781,138.7606 781,151.2006 " fill="none" id="UC4-backto-student" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="774,111.8506,781,91.8506,788,111.8506,774,111.8506" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e3f07577c4413e10c968fbadd7250ecb]
+link student to UC5--><path d="M793.33,234.9806 C797.46,248.6706 802.11,264.0706 806.4,278.2806 " fill="none" id="student-to-UC5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="813.25,276.7406,812.33,297.9106,799.85,280.7906,813.25,276.7406" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3cf576eb84bf228dbb17df245035cb1a]
+link teacher to UC6--><path d="M252.16,234.9806 C236.57,249.8406 218.86,266.7206 202.93,281.9106 " fill="none" id="teacher-to-UC6" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="207.63,287.1006,188.32,295.8306,197.97,276.9606,207.63,287.1006" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d52b5dca129c6c4b03695b494344a2fd]
+link employee to UC7--><path d="M495,234.9806 C495,247.4006 495,261.2306 495,274.3106 " fill="none" id="employee-to-UC7" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="502,274.5606,495,294.5606,488,274.5606,502,274.5606" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b8535a9c3573e6a56a30c436f099342a]
+@startuml
+title Диаграмма вариантов использования сайта РГЭУ(РИНХ)
+
+' left to right direction
+
+' Обявление актеров
+actor "Сотрудник" as employee
+actor "Преподователь" as teacher
+actor "Студент" as student
+
+
+usecase "Просмотр нормативных документов" as UC1
+usecase "Просмотр медиа контента" as UC2
+usecase "Просмотр информации\n для студентов" as UC3
+usecase "Просмотр информации\n о структурных подразделениях" as UC4
+usecase "Использование подсистемы\n расписания для студентов" as UC5
+usecase "Использование подсистемы\n расписания для преподователей" as UC6
+usecase "Использование подсистемы\n расписания 'занятость аудиторий'" as UC7
+
+UC1 <|- - employee
+UC1 <|- - teacher
+UC1 <|- - student
+
+UC2 <|- - employee
+UC2 <|- - teacher
+UC2 <|- - student
+
+UC3 <|- - student
+
+
+UC4 <|- - employee
+UC4 <|- - teacher
+UC4 <|- - student
+
+UC5 <|-up- student
+
+UC6 <|-up- teacher
+
+UC7 <|-up- employee
+
+
+@enduml
+
+@startuml
+title Диаграмма вариантов использования сайта РГЭУ(РИНХ)
+
+
+actor "Сотрудник" as employee
+actor "Преподователь" as teacher
+actor "Студент" as student
+
+
+usecase "Просмотр нормативных документов" as UC1
+usecase "Просмотр медиа контента" as UC2
+usecase "Просмотр информации\n для студентов" as UC3
+usecase "Просмотр информации\n о структурных подразделениях" as UC4
+usecase "Использование подсистемы\n расписания для студентов" as UC5
+usecase "Использование подсистемы\n расписания для преподователей" as UC6
+usecase "Использование подсистемы\n расписания 'занятость аудиторий'" as UC7
+
+UC1 <|- - employee
+UC1 <|- - teacher
+UC1 <|- - student
+
+UC2 <|- - employee
+UC2 <|- - teacher
+UC2 <|- - student
+
+UC3 <|- - student
+
+
+UC4 <|- - employee
+UC4 <|- - teacher
+UC4 <|- - student
+
+UC5 <|-up- student
+
+UC6 <|-up- teacher
+
+UC7 <|-up- employee
+
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 20:25:22 MSK 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

@@ -15,6 +15,11 @@
 
 Диаграмма классов "Пользователи" [svg](diagrams/build/class/users/users.svg)
 
+## Диаграммы Use case
+
+Диаграмма "Гости сайта" [svg](diagrams/build/use_case/guests_site/guests_site.svg)
+Диаграмма "Пользователи сайта" [svg](diagrams/build/use_case/users_site/users_site.svg)
+
 ## Диаграммы компонентов
 
 Диаграмма компонентов №1 "Сервер приложения сайта вуза" [svg](diagrams/build/component/backend_site_university/backend_site_university.svg)

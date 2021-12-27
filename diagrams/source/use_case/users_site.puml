@@ -1,0 +1,42 @@
+@startuml
+title Диаграмма вариантов использования сайта РГЭУ(РИНХ)
+
+' left to right direction
+
+' Обявление актеров
+actor "Сотрудник" as employee
+actor "Преподователь" as teacher
+actor "Студент" as student
+
+
+usecase "Просмотр нормативных документов" as UC1
+usecase "Просмотр медиа контента" as UC2
+usecase "Просмотр информации\n для студентов" as UC3
+usecase "Просмотр информации\n о структурных подразделениях" as UC4
+usecase "Использование подсистемы\n расписания для студентов" as UC5
+usecase "Использование подсистемы\n расписания для преподователей" as UC6
+usecase "Использование подсистемы\n расписания 'занятость аудиторий'" as UC7
+
+UC1 <|-- employee
+UC1 <|-- teacher
+UC1 <|-- student
+
+UC2 <|-- employee
+UC2 <|-- teacher
+UC2 <|-- student
+
+UC3 <|-- student
+
+
+UC4 <|-- employee
+UC4 <|-- teacher
+UC4 <|-- student
+
+UC5 <|-up- student
+
+UC6 <|-up- teacher
+
+UC7 <|-up- employee
+
+
+@enduml
