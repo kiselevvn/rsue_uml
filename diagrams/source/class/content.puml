@@ -1,0 +1,88 @@
+@startuml content
+
+title "Диаграмма классов "Контент сайта ВУЗа""
+
+
+enum SiteType {
+    ' Тип сайта
+    id: Integer
+    name: String
+}
+
+class Theme {
+    ' Тема сайта
+    id: Integer
+    name: String
+    is_main: Boolean
+}
+
+class Site {
+    ' Сайт
+    id: Integer
+    theme_id: Integer
+    is_published: Boolean
+    description: String
+    domain: String
+    title: String
+    name: String
+    body: Json
+
+}
+
+class Page {
+    ' Страница сайта
+    id: Integer
+    site_id: Integer
+    is_published: Boolean
+    self_id: Integer
+    url: String
+    title: String
+    name: String
+    body: Json
+}
+
+class NewsCategory {
+    ' Категория новостей
+    id: Integer
+    site_id: Integer
+    is_published: Boolean
+    title: String
+    description: String
+}
+
+class News {
+    ' Новость
+    id: Integer
+    is_published: Boolean
+    date_published: Date
+    title: String
+    description: String
+    body: Json
+}
+
+class PhotoAlbums {
+    ' Фото альбом
+    id: Integer
+    site_id: Integer
+    name: String
+    is_published: Boolean
+    description: String
+
+}
+
+class Photo {
+    ' Фото
+    id: Integer
+    description: String
+}
+
+News *-- NewsCategory
+NewsCategory *-- Site
+Photo *-- PhotoAlbums
+PhotoAlbums *-- Site
+Site *-- Theme
+Site *-- SiteType
+Page *-- Site
+Page *-- Page
+
+@enduml

@@ -1,0 +1,219 @@
+@startuml university
+
+title "Диаграмма классов "Сайт ВУЗа""
+
+circle EducationGroupAPI
+circle EducationLessonAPI
+
+package "university - Структура университета" as university {
+    ' Классы описывающие структуру университета
+
+    enum LevelEducation {
+        ' Уровень образования
+        id: Integer
+        name: String
+    }
+
+    class Faculty {
+        ' Факультет
+        id: Integer
+        name: String
+        level_education: Integer
+    }
+
+    class Department {
+        ' Кафедра
+        id: Integer
+        name: String
+
+    }
+
+    class Campus {
+        ' Корпус
+        id: Integer
+        address: String
+    }
+
+    class Audience {
+        ' Аудитория
+        id: Integer
+        number: String
+        extra_settings: Json
+    }
+
+    ' Объявление отношений подсистемы
+    Audience *-- Campus
+    Department *-- Faculty
+    Faculty *-- LevelEducation
+}
+
+package "users - Пользователи" as users {
+
+    enum UserRole {
+        ' Пользовательские роли
+        id: Integer
+        name: String
+    }
+
+    enum UserPermissions {
+        ' Пользовательские разрешения
+        id: Integer
+        name: String
+    }
+
+    class User{
+        ' Пользователь
+        id: Integer
+        email: String
+        password: String
+        password_salt: String
+        frontend_settings: Json
+        last_name: String
+        first_name: String
+        second_name: String
+        date_birth: Date
+    }
+    User : get_full_name() : string
+    User : send_email(Mail mail_object) : void
+
+    ' Объявление отношений подсистемы
+    User *-- UserRole
+    User *--* UserPermissions
+}
+
+package "timetable - Расписание занятий" as timetable  {
+
+    enum DayWeek {
+        ' День Недели
+        id: Integer
+        name: String
+    }
+
+    class Week {
+        ' Неделя
+        id: Integer
+        day_week_id: Integer
+        is_even: Boolean
+    }
+
+    class LessonType {
+        ' Тип занятия
+        id: Integer
+        order: Integer
+        start_time: Time
+        end_time: Time
+    }
+
+    class Lesson {
+        ' Занятие
+        id: Integer
+        order: Integer
+        lesson_type_id: Integer
+        week_id: Integer
+        audience_id: Interger
+        teacher_id: Interger
+        education_lesson_id: Integer
+        education_group_id: Integer
+        date: Date
+    }
+
+    Lesson *-- LessonType
+    Lesson *-- Week
+    Week *-- DayWeek
+}
+
+package "content - Контент сайта" as content {
+
+    enum SiteType {
+        ' Тип сайта
+        id: Integer
+        name: String
+    }
+
+    class Theme {
+        ' Тема сайта
+        id: Integer
+        name: String
+        is_main: Boolean
+    }
+
+    class Site {
+        ' Сайт
+        id: Integer
+        theme_id: Integer
+        is_published: Boolean
+        description: String
+        domain: String
+        title: String
+        name: String
+        body: Json
+
+    }
+
+    class Page {
+        ' Страница сайта
+        id: Integer
+        site_id: Integer
+        is_published: Boolean
+        self_id: Integer
+        url: String
+        title: String
+        name: String
+        body: Json
+    }
+
+    class NewsCategory {
+        ' Категория новостей
+        id: Integer
+        site_id: Integer
+        is_published: Boolean
+        title: String
+        description: String
+    }
+
+    class News {
+        ' Новость
+        id: Integer
+        is_published: Boolean
+        date_published: Date
+        title: String
+        description: String
+        body: Json
+    }
+
+    class PhotoAlbums {
+        ' Фото альбом
+        id: Integer
+        site_id: Integer
+        name: String
+        is_published: Boolean
+        description: String
+
+    }
+
+    class Photo {
+        ' Фото
+        id: Integer
+        description: String
+    }
+
+    News *-- NewsCategory
+    NewsCategory *-- Site
+    Photo *-- PhotoAlbums
+    PhotoAlbums *-- Site
+    Site *-- Theme
+    Site *-- SiteType
+    Page *-- Site
+    Page *-- Page
+}
+
+User *-- Department
+User *-- Faculty
+User *-- EducationGroupAPI
+User *-- Site
+
+Lesson *-- EducationLessonAPI
+Lesson *-- EducationGroupAPI
+Lesson *-up- Audience
+
+@enduml

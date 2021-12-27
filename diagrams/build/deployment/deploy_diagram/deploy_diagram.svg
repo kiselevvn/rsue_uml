@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="376px" preserveAspectRatio="none" style="width:515px;height:376px;background:#FFFFFF;" version="1.1" viewBox="0 0 515 376" width="515px" zoomAndPan="magnify"><defs><filter height="300%" id="f14xwz1eaam4qd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="237" x="132.5" y="18.6855">Диаграмма равзвертывания</text><!--MD5=[fcc8187b7ccc9786a58cfd6721cd1806]
+cluster jenkins--><polygon fill="#FFFFFF" filter="url(#f14xwz1eaam4qd)" points="166,157.1406,278,157.1406,285,180.75,498,180.75,498,240.1406,166,240.1406,166,157.1406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="166" x2="285" y1="180.75" y2="180.75"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="170" y="173.6738">Jenkins server</text><ellipse cx="215.1985" cy="208.5923" fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" rx="32.6985" ry="15.4517" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="200.1985" y="212.3208">build</text><ellipse cx="324.1838" cy="208.5923" fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" rx="41.1838" ry="15.4517" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="303.1838" y="212.3208">testing</text><ellipse cx="441.1838" cy="208.5923" fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" rx="41.1838" ry="15.4517" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="420.1838" y="212.3208">deploy</text><!--MD5=[00ae9dff0f4157a1e57a574ba384be82]
+entity developers--><ellipse cx="41" cy="36.6406" fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M41,44.6406 L41,71.6406 M28,52.6406 L54,52.6406 M41,71.6406 L28,86.6406 M41,71.6406 L54,86.6406 " fill="none" filter="url(#f14xwz1eaam4qd)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="6" y="106.6738">developers</text><!--MD5=[4d3fe30f1291fc2fac05ba39abe9dac2]
+entity git--><polygon fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" points="187.5,54.6406,197.5,44.6406,242.5,44.6406,242.5,82.25,232.5,92.25,187.5,92.25,187.5,54.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="232.5" x2="242.5" y1="54.6406" y2="44.6406"/><line style="stroke:#000000;stroke-width:1.5;" x1="187.5" x2="232.5" y1="54.6406" y2="54.6406"/><line style="stroke:#000000;stroke-width:1.5;" x1="232.5" x2="232.5" y1="54.6406" y2="92.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="15" x="202.5" y="79.1738">git</text><!--MD5=[ededa27521834249778f3c027834d0e9]
+entity production--><polygon fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" points="387.5,322.6406,397.5,312.6406,494.5,312.6406,494.5,350.25,484.5,360.25,387.5,360.25,387.5,322.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="484.5" x2="494.5" y1="322.6406" y2="312.6406"/><line style="stroke:#000000;stroke-width:1.5;" x1="387.5" x2="484.5" y1="322.6406" y2="322.6406"/><line style="stroke:#000000;stroke-width:1.5;" x1="484.5" x2="484.5" y1="322.6406" y2="360.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="402.5" y="347.1738">production</text><!--MD5=[192e1387d56ac353277bfe9f6fdb8154]
+entity secrets--><polygon fill="#FEFECE" filter="url(#f14xwz1eaam4qd)" points="163,314.1406,173,304.1406,267,304.1406,267,359.3594,257,369.3594,163,369.3594,163,314.1406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="257" x2="267" y1="314.1406" y2="304.1406"/><line style="stroke:#000000;stroke-width:1.5;" x1="163" x2="257" y1="314.1406" y2="314.1406"/><line style="stroke:#000000;stroke-width:1.5;" x1="257" x2="257" y1="314.1406" y2="369.3594"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="64" x="178" y="338.6738">«storage»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="187" y="356.2832">secrets</text><!--MD5=[cdf7b7e7f0285b76e6ff179214a1638d]
+link build to testing--><path d="M247.79,208.6406 C257.76,208.6406 267.73,208.6406 277.7,208.6406 " fill="none" id="build-to-testing" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="282.92,208.6406,273.92,204.6406,277.92,208.6406,273.92,212.6406,282.92,208.6406" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4b319e6e9bb1ec0d03fdb75f62c3538f]
+link testing to deploy--><path d="M365.13,208.6406 C374.98,208.6406 384.82,208.6406 394.66,208.6406 " fill="none" id="testing-to-deploy" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="399.81,208.6406,390.81,204.6406,394.81,208.6406,390.81,212.6406,399.81,208.6406" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0a6ddeac5dbd9a4c269132afb7c17bb3]
+link developers to git--><path d="M76.21,68.6406 C107.19,68.6406 151.94,68.6406 182.18,68.6406 " fill="none" id="developers-to-git" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="187.28,68.6406,178.28,64.6406,182.28,68.6406,178.28,72.6406,187.28,68.6406" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="94.25" y="62.1357">send commit</text><!--MD5=[9c9972c5f1d5bda8d4d28ed383f3feeb]
+link git to build--><path d="M215,92.7406 C215,119.3906 215,162.7506 215,187.8906 " fill="none" id="git-to-build" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="215,192.9706,219,183.9706,215,187.9706,211,183.9706,215,192.9706" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6652ffe4f3cf6e1ac188ba50de5f3d3a]
+reverse link build to secrets--><path d="M215,229.6806 C215,249.6906 215,280.7606 215,304.0906 " fill="none" id="build-backto-secrets" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="215,224.5906,211,233.5906,215,229.5906,219,233.5906,215,224.5906" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="216" y="270.6357">send secret</text><!--MD5=[0aeb328fb18bb2a5700f6ad3bcbd479d]
+link deploy to production--><path d="M441,224.5906 C441,244.9206 441,281.6706 441,307.3106 " fill="none" id="deploy-to-production" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="441,312.6006,445,303.6006,441,307.6006,437,303.6006,441,312.6006" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e6d6295ddedb174efbf16b4979101cf3]
+@startuml deploy_diagram
+
+title "Диаграмма равзвертывания"
+
+actor developers
+
+node git
+node production
+node secrets <<storage>>
+
+package "Jenkins server" as jenkins {
+
+    usecase build
+    usecase testing
+    usecase deploy
+
+    build .> testing
+    testing .> deploy
+
+}
+
+
+developers .> git : send commit
+
+git ..> build
+build <.. secrets : send secret
+deploy ..> production
+
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 20:25:22 MSK 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

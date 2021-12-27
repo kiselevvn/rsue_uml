@@ -1,0 +1,30 @@
+@startuml deploy_diagram
+
+title "Диаграмма равзвертывания"
+
+actor developers
+
+node git
+node production
+node secrets <<storage>>
+
+package "Jenkins server" as jenkins {
+
+    usecase build
+    usecase testing
+    usecase deploy
+
+    build .> testing
+    testing .> deploy
+
+}
+
+
+developers .> git : send commit
+
+git ..> build
+build <.. secrets : send secret
+deploy ..> production
+
+
+@enduml

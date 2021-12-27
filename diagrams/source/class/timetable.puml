@@ -1,0 +1,43 @@
+@startuml timetable
+
+title "Диаграмма классов "Расписание""
+
+enum DayWeek {
+    ' День Недели
+    id: Integer
+    name: String
+}
+
+class Week {
+    ' Неделя
+    id: Integer
+    day_week_id: Integer
+    is_even: Boolean
+}
+
+class LessonType {
+    ' Тип занятия
+    id: Integer
+    order: Integer
+    start_time: Time
+    end_time: Time
+}
+
+class Lesson {
+    ' Занятие
+    id: Integer
+    order: Integer
+    lesson_type_id: Integer
+    week_id: Integer
+    audience_id: Interger
+    teacher_id: Interger
+    education_lesson_id: Integer
+    education_group_id: Integer
+    date: Date
+}
+
+Lesson *-- LessonType
+Lesson *-- Week
+Week *-- DayWeek
+
+@enduml

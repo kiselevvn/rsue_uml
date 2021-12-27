@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="419px" preserveAspectRatio="none" style="width:325px;height:419px;background:#FFFFFF;" version="1.1" viewBox="0 0 325 419" width="325px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ejvduqda3eyc" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="316" x="2" y="18.6855">Диаграмма классов "Структура ВУЗа"</text><!--MD5=[3c4b48126fec305c2e13c24fa82ecbef]
+class LevelEducation--><rect codeLine="4" fill="#FEFECE" filter="url(#f1ejvduqda3eyc)" height="75.6719" id="LevelEducation" style="stroke:#A80036;stroke-width:1.5;" width="116" x="38.5" y="329.6406"/><ellipse cx="53.5" cy="345.6406" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M52.3594,346.4375 L52.3594,348.9375 L56.6875,348.9375 L56.6875,348.0156 Q56.6875,347.4063 56.9297,347.1406 Q57.1719,346.875 57.5469,346.875 Q57.9219,346.875 58.1563,347.1406 Q58.3906,347.4063 58.3906,348.0156 L58.3906,350.6406 L50.3906,350.6406 Q49.7656,350.6406 49.5078,350.4063 Q49.25,350.1719 49.25,349.7813 Q49.25,349.4063 49.5156,349.1719 Q49.7813,348.9375 50.3906,348.9375 L50.6563,348.9375 L50.6563,342.2813 L50.3906,342.2813 Q49.7656,342.2813 49.5078,342.0469 Q49.25,341.8125 49.25,341.4219 Q49.25,341.0469 49.5078,340.8125 Q49.7656,340.5781 50.3906,340.5781 L58.0156,340.5781 L58.0156,343.1719 Q58.0156,343.7813 57.7891,344.0391 Q57.5625,344.2969 57.1719,344.2969 Q56.7969,344.2969 56.5625,344.0391 Q56.3281,343.7813 56.3281,343.1719 L56.3281,342.2813 L52.3594,342.2813 L52.3594,344.7344 L53.8438,344.7344 Q53.8438,344.0781 53.9688,343.8906 Q54.2344,343.4844 54.7031,343.4844 Q55.0781,343.4844 55.3125,343.7422 Q55.5469,344 55.5469,344.6094 L55.5469,346.5781 Q55.5469,347.125 55.4219,347.3125 Q55.1563,347.7031 54.7031,347.7031 Q54.2344,347.7031 53.9688,347.2969 Q53.8438,347.1094 53.8438,346.4375 L52.3594,346.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="67.5" y="350.5508">LevelEducation</text><line style="stroke:#A80036;stroke-width:1.5;" x1="39.5" x2="153.5" y1="361.6406" y2="361.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="44.5" y="377.0596">id: Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="44.5" y="390.8955">name: String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="39.5" x2="153.5" y1="397.3125" y2="397.3125"/><!--MD5=[244939a14b868e2c127e3dbc5bed03b4]
+class Faculty--><rect codeLine="10" fill="#FEFECE" filter="url(#f1ejvduqda3eyc)" height="89.5078" id="Faculty" style="stroke:#A80036;stroke-width:1.5;" width="126" x="33.5" y="179.6406"/><ellipse cx="73.7" cy="195.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M76.4656,191.5156 Q76.6219,191.2969 76.8094,191.1875 Q76.9969,191.0781 77.2156,191.0781 Q77.5906,191.0781 77.825,191.3359 Q78.0594,191.5938 78.0594,192.2031 L78.0594,193.6563 Q78.0594,194.2656 77.825,194.5313 Q77.5906,194.7969 77.2156,194.7969 Q76.8719,194.7969 76.6688,194.5938 Q76.4656,194.4063 76.3563,193.8906 Q76.3094,193.5313 76.1219,193.3438 Q75.7938,192.9688 75.1844,192.75 Q74.575,192.5313 73.95,192.5313 Q73.1844,192.5313 72.5516,192.8594 Q71.9188,193.1875 71.4266,193.9375 Q70.9344,194.6875 70.9344,195.7188 L70.9344,196.8125 Q70.9344,198.0469 71.825,198.8672 Q72.7156,199.6875 74.3094,199.6875 Q75.2469,199.6875 75.9031,199.4375 Q76.2938,199.2813 76.7156,198.8438 Q76.9813,198.5781 77.1297,198.5 Q77.2781,198.4219 77.4813,198.4219 Q77.8094,198.4219 78.0672,198.6797 Q78.325,198.9375 78.325,199.2813 Q78.325,199.625 77.9813,200.0313 Q77.4813,200.6094 76.6844,200.9375 Q75.6063,201.3906 74.3094,201.3906 Q72.7938,201.3906 71.5906,200.7656 Q70.6063,200.2656 69.9188,199.1953 Q69.2313,198.125 69.2313,196.8438 L69.2313,195.6875 Q69.2313,194.3594 69.8484,193.2109 Q70.4656,192.0625 71.5594,191.4453 Q72.6531,190.8281 73.8875,190.8281 Q74.6219,190.8281 75.2703,190.9922 Q75.9188,191.1563 76.4656,191.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="93.3" y="200.5508">Faculty</text><line style="stroke:#A80036;stroke-width:1.5;" x1="34.5" x2="158.5" y1="211.6406" y2="211.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="39.5" y="227.0596">id: Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="39.5" y="240.8955">name: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="39.5" y="254.7314">level_education: Integer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="34.5" x2="158.5" y1="261.1484" y2="261.1484"/><!--MD5=[c50d89439a12e948b363c4efab1c487c]
+class Department--><rect codeLine="17" fill="#FEFECE" filter="url(#f1ejvduqda3eyc)" height="75.6719" id="Department" style="stroke:#A80036;stroke-width:1.5;" width="97" x="48" y="36.6406"/><ellipse cx="63" cy="52.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M65.7656,48.5156 Q65.9219,48.2969 66.1094,48.1875 Q66.2969,48.0781 66.5156,48.0781 Q66.8906,48.0781 67.125,48.3359 Q67.3594,48.5938 67.3594,49.2031 L67.3594,50.6563 Q67.3594,51.2656 67.125,51.5313 Q66.8906,51.7969 66.5156,51.7969 Q66.1719,51.7969 65.9688,51.5938 Q65.7656,51.4063 65.6563,50.8906 Q65.6094,50.5313 65.4219,50.3438 Q65.0938,49.9688 64.4844,49.75 Q63.875,49.5313 63.25,49.5313 Q62.4844,49.5313 61.8516,49.8594 Q61.2188,50.1875 60.7266,50.9375 Q60.2344,51.6875 60.2344,52.7188 L60.2344,53.8125 Q60.2344,55.0469 61.125,55.8672 Q62.0156,56.6875 63.6094,56.6875 Q64.5469,56.6875 65.2031,56.4375 Q65.5938,56.2813 66.0156,55.8438 Q66.2813,55.5781 66.4297,55.5 Q66.5781,55.4219 66.7813,55.4219 Q67.1094,55.4219 67.3672,55.6797 Q67.625,55.9375 67.625,56.2813 Q67.625,56.625 67.2813,57.0313 Q66.7813,57.6094 65.9844,57.9375 Q64.9063,58.3906 63.6094,58.3906 Q62.0938,58.3906 60.8906,57.7656 Q59.9063,57.2656 59.2188,56.1953 Q58.5313,55.125 58.5313,53.8438 L58.5313,52.6875 Q58.5313,51.3594 59.1484,50.2109 Q59.7656,49.0625 60.8594,48.4453 Q61.9531,47.8281 63.1875,47.8281 Q63.9219,47.8281 64.5703,47.9922 Q65.2188,48.1563 65.7656,48.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="77" y="57.5508">Department</text><line style="stroke:#A80036;stroke-width:1.5;" x1="49" x2="144" y1="68.6406" y2="68.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="54" y="84.0596">id: Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="54" y="97.8955">name: String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="49" x2="144" y1="104.3125" y2="104.3125"/><!--MD5=[209029d07fd19def03f61823c9c1351a]
+class Campus--><rect codeLine="24" fill="#FEFECE" filter="url(#f1ejvduqda3eyc)" height="75.6719" id="Campus" style="stroke:#A80036;stroke-width:1.5;" width="86" x="194.5" y="186.6406"/><ellipse cx="212.2" cy="202.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M214.9656,198.5156 Q215.1219,198.2969 215.3094,198.1875 Q215.4969,198.0781 215.7156,198.0781 Q216.0906,198.0781 216.325,198.3359 Q216.5594,198.5938 216.5594,199.2031 L216.5594,200.6563 Q216.5594,201.2656 216.325,201.5313 Q216.0906,201.7969 215.7156,201.7969 Q215.3719,201.7969 215.1688,201.5938 Q214.9656,201.4063 214.8563,200.8906 Q214.8094,200.5313 214.6219,200.3438 Q214.2938,199.9688 213.6844,199.75 Q213.075,199.5313 212.45,199.5313 Q211.6844,199.5313 211.0516,199.8594 Q210.4188,200.1875 209.9266,200.9375 Q209.4344,201.6875 209.4344,202.7188 L209.4344,203.8125 Q209.4344,205.0469 210.325,205.8672 Q211.2156,206.6875 212.8094,206.6875 Q213.7469,206.6875 214.4031,206.4375 Q214.7938,206.2813 215.2156,205.8438 Q215.4813,205.5781 215.6297,205.5 Q215.7781,205.4219 215.9813,205.4219 Q216.3094,205.4219 216.5672,205.6797 Q216.825,205.9375 216.825,206.2813 Q216.825,206.625 216.4813,207.0313 Q215.9813,207.6094 215.1844,207.9375 Q214.1063,208.3906 212.8094,208.3906 Q211.2938,208.3906 210.0906,207.7656 Q209.1063,207.2656 208.4188,206.1953 Q207.7313,205.125 207.7313,203.8438 L207.7313,202.6875 Q207.7313,201.3594 208.3484,200.2109 Q208.9656,199.0625 210.0594,198.4453 Q211.1531,197.8281 212.3875,197.8281 Q213.1219,197.8281 213.7703,197.9922 Q214.4188,198.1563 214.9656,198.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="226.8" y="207.5508">Campus</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195.5" x2="279.5" y1="218.6406" y2="218.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="200.5" y="234.0596">id: Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="200.5" y="247.8955">address: String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="195.5" x2="279.5" y1="254.3125" y2="254.3125"/><!--MD5=[bec07c1bdb2f4b5ed9f4ff914d6eed84]
+class Audience--><rect codeLine="30" fill="#FEFECE" filter="url(#f1ejvduqda3eyc)" height="89.5078" id="Audience" style="stroke:#A80036;stroke-width:1.5;" width="110" x="182.5" y="29.6406"/><ellipse cx="209.65" cy="45.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M212.4156,41.5156 Q212.5719,41.2969 212.7594,41.1875 Q212.9469,41.0781 213.1656,41.0781 Q213.5406,41.0781 213.775,41.3359 Q214.0094,41.5938 214.0094,42.2031 L214.0094,43.6563 Q214.0094,44.2656 213.775,44.5313 Q213.5406,44.7969 213.1656,44.7969 Q212.8219,44.7969 212.6188,44.5938 Q212.4156,44.4063 212.3063,43.8906 Q212.2594,43.5313 212.0719,43.3438 Q211.7438,42.9688 211.1344,42.75 Q210.525,42.5313 209.9,42.5313 Q209.1344,42.5313 208.5016,42.8594 Q207.8688,43.1875 207.3766,43.9375 Q206.8844,44.6875 206.8844,45.7188 L206.8844,46.8125 Q206.8844,48.0469 207.775,48.8672 Q208.6656,49.6875 210.2594,49.6875 Q211.1969,49.6875 211.8531,49.4375 Q212.2438,49.2813 212.6656,48.8438 Q212.9313,48.5781 213.0797,48.5 Q213.2281,48.4219 213.4313,48.4219 Q213.7594,48.4219 214.0172,48.6797 Q214.275,48.9375 214.275,49.2813 Q214.275,49.625 213.9313,50.0313 Q213.4313,50.6094 212.6344,50.9375 Q211.5563,51.3906 210.2594,51.3906 Q208.7438,51.3906 207.5406,50.7656 Q206.5563,50.2656 205.8688,49.1953 Q205.1813,48.125 205.1813,46.8438 L205.1813,45.6875 Q205.1813,44.3594 205.7984,43.2109 Q206.4156,42.0625 207.5094,41.4453 Q208.6031,40.8281 209.8375,40.8281 Q210.5719,40.8281 211.2203,40.9922 Q211.8688,41.1563 212.4156,41.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="226.35" y="50.5508">Audience</text><line style="stroke:#A80036;stroke-width:1.5;" x1="183.5" x2="291.5" y1="61.6406" y2="61.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="188.5" y="77.0596">id: Integer</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="188.5" y="90.8955">number: String</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="188.5" y="104.7314">extra_settings: Json</text><line style="stroke:#A80036;stroke-width:1.5;" x1="183.5" x2="291.5" y1="111.1484" y2="111.1484"/><!--MD5=[f48dcf2501dd285eee32de3d573091fd]
+reverse link Audience to Campus--><path codeLine="38" d="M237.5,132.7806 C237.5,150.8306 237.5,170.2906 237.5,186.5506 " fill="none" id="Audience-backto-Campus" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="237.5,119.6406,233.5,125.6406,237.5,131.6406,241.5,125.6406,237.5,119.6406" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2d4aac607423ef38bf0e2b978b8f6335]
+reverse link Department to Faculty--><path codeLine="39" d="M96.5,126.0906 C96.5,143.4206 96.5,162.6706 96.5,179.4606 " fill="none" id="Department-backto-Faculty" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="96.5,112.9906,92.5,118.9906,96.5,124.9906,100.5,118.9906,96.5,112.9906" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[475c44d24c798df6dd11ffbd005db7bb]
+reverse link Faculty to LevelEducation--><path codeLine="40" d="M96.5,283.2006 C96.5,298.7206 96.5,315.1106 96.5,329.2106 " fill="none" id="Faculty-backto-LevelEducation" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="96.5,269.8706,92.5,275.8706,96.5,281.8706,100.5,275.8706,96.5,269.8706" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e890514058ed0bc6c250d4de2f363db0]
+@startuml university
+
+title "Диаграмма классов "Структура ВУЗа""
+
+enum LevelEducation {
+    ' Уровень образования
+    id: Integer
+    name: String
+}
+
+class Faculty {
+    ' Факультет
+    id: Integer
+    name: String
+    level_education: Integer
+}
+
+class Department {
+    ' Кафедра
+    id: Integer
+    name: String
+
+}
+
+class Campus {
+    ' Корпус
+    id: Integer
+    address: String
+}
+
+class Audience {
+    ' Аудитория
+    id: Integer
+    number: String
+    extra_settings: Json
+}
+
+' Объявление отношений подсистемы
+Audience *- - Campus
+Department *- - Faculty
+Faculty *- - LevelEducation
+
+@enduml
+
+@startuml university
+
+title "Диаграмма классов "Структура ВУЗа""
+
+enum LevelEducation {
+    id: Integer
+    name: String
+}
+
+class Faculty {
+    id: Integer
+    name: String
+    level_education: Integer
+}
+
+class Department {
+    id: Integer
+    name: String
+
+}
+
+class Campus {
+    id: Integer
+    address: String
+}
+
+class Audience {
+    id: Integer
+    number: String
+    extra_settings: Json
+}
+
+Audience *- - Campus
+Department *- - Faculty
+Faculty *- - LevelEducation
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 20:25:22 MSK 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

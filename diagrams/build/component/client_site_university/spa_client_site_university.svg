@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="591px" preserveAspectRatio="none" style="width:942px;height:591px;background:#FFFFFF;" version="1.1" viewBox="0 0 942 591" width="942px" zoomAndPan="magnify"><defs><filter height="300%" id="f1wu0kmejh0h7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="553" x="188" y="18.6855">Диаграмма компонентов №2 "Клиентское приложение сайта вуза"</text><!--MD5=[faad0f0e7f13faf098622c4536db09e2]
+cluster source--><polygon fill="#FFFFFF" filter="url(#f1wu0kmejh0h7)" points="240,283.9971,357,283.9971,364,307.6064,689,307.6064,689,584.9971,240,584.9971,240,283.9971" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="240" x2="364" y1="307.6064" y2="307.6064"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="244" y="300.5303">client aplication</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="124" x="406.5" y="324.1396">«quasar aplication»</text><!--MD5=[ed956fa261054d769bd7b88a2855fc2e]
+cluster node_js_server--><polygon fill="#FFFFFF" filter="url(#f1wu0kmejh0h7)" points="16,62.9971,116,62.9971,123,86.6064,216,86.6064,216,456.9971,16,456.9971,16,62.9971" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="123" y1="86.6064" y2="86.6064"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="94" x="20" y="79.5303">node js srver</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="105" x="67.5" y="103.1396">«node js server»</text><!--MD5=[4a847362a43a6a9bd2f185fa8ebb8133]
+cluster user_browser--><polygon fill="#FFFFFF" filter="url(#f1wu0kmejh0h7)" points="713,62.9971,813,62.9971,820,86.6064,925,86.6064,925,456.9971,713,456.9971,713,62.9971" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="713" x2="820" y1="86.6064" y2="86.6064"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="94" x="717" y="79.5303">user browser</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="98" x="774" y="103.1396">«user browser»</text><!--MD5=[75eca2ec9e28d9c824b47eecd9d679b6]
+entity qusar client--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="159" x="374.5" y="375.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="513.5" y="380.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="511.5" y="382.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="511.5" y="386.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="119" x="389.5" y="410.5303">«Vue js aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="412.5" y="428.1396">qusar client</text><!--MD5=[97c483031b8fbdf997844bab183ae347]
+entity server entry--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="184" x="256" y="503.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="420" y="508.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="418" y="510.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="418" y="514.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="144" x="271" y="538.5303">«Express js aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="305" y="556.1396">server entry</text><!--MD5=[222345d392a7f75dc47148459091befe]
+entity client entry--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="198" x="475" y="503.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="653" y="508.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="651" y="510.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="651" y="514.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="158" x="490" y="538.5303">«Vue js App component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="534.5" y="556.1396">client entry</text><!--MD5=[6d4b2645bbefec3311c93ae4161df008]
+entity server bundle--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="144" x="50" y="375.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="174" y="380.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="172" y="382.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="172" y="386.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="104" x="65" y="410.5303">«vue ssr server»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="73.5" y="428.1396">server bundle</text><!--MD5=[6a74c6d5b00f600c902b34ea073c3c3f]
+entity bundle renderer--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="167" x="32.5" y="154.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="179.5" y="159.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="177.5" y="161.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="177.5" y="165.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="127" x="47.5" y="189.5303">«vue server render»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="60" y="207.1396">bundle renderer</text><!--MD5=[6cee430a27a4417b79b40c45994c70f9]
+entity client bundle--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="129" x="741.5" y="375.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="850.5" y="380.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="848.5" y="382.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="848.5" y="386.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="756.5" y="410.5303">«html, js, css»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="761" y="428.1396">client bundle</text><!--MD5=[2cc68528390aa8769ab20cfa645fbf6e]
+entity page browser--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="180" x="729" y="154.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="889" y="159.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="887" y="161.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="887" y="165.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="140" x="744" y="189.5303">«browser component»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="771" y="207.1396">page browser</text><!--MD5=[83d7c66368a3272c2ae5778d39252274]
+entity webpack--><rect fill="#FEFECE" filter="url(#f1wu0kmejh0h7)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="154" x="377" y="154.9971"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="511" y="159.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="509" y="161.9971"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="509" y="165.9971"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="114" x="392" y="189.5303">«module bundler»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="421.5" y="207.1396">webpack</text><!--MD5=[b99042d91c5434e4606eeccf437471f9]
+reverse link qusar client to server entry--><path d="M423.8,445.3971 C408.34,463.7771 389.68,485.9571 374.74,503.7171 " fill="none" id="qusar client-backto-server entry" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="427.25,441.2971,418.3902,445.5986,424.0267,445.1194,424.5059,450.7559,427.25,441.2971" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c7d38130c7c14ceb56410679934512b9]
+reverse link qusar client to client entry--><path d="M487.75,444.9271 C505.34,463.3971 526.68,485.8071 543.73,503.7171 " fill="none" id="qusar client-backto-client entry" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="484.28,441.2971,487.573,450.5791,487.7215,444.9242,493.3764,445.0727,484.28,441.2971" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7b174f95986de0c78847ce29d5df3077]
+reverse link bundle renderer to server bundle--><path d="M117.01,225.3571 C118.17,267.5971 120.04,336.1071 121.14,375.9671 " fill="none" id="bundle renderer-backto-server bundle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="116.87,220.3371,113.1287,229.4476,117.0128,225.335,121.1254,229.2192,116.87,220.3371" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d21aa687db7bb8ace06cfb6842f19888]
+reverse link page browser to client bundle--><path d="M816.81,225.3571 C814.3,267.5971 810.24,336.1071 807.87,375.9671 " fill="none" id="page browser-backto-client bundle" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="817.11,220.3371,812.5767,229.0806,816.8097,225.328,820.5622,229.5611,817.11,220.3371" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e2be45d8acd8b9d5a10de9d98645e9b5]
+reverse link webpack to qusar client--><path d="M454,225.3571 C454,267.5971 454,336.1071 454,375.9671 " fill="none" id="webpack-backto-qusar client" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="454,220.3371,450,229.3371,454,225.3371,458,229.3371,454,220.3371" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="455" y="264.4922">build</text><!--MD5=[f1bc26e632106a4a0cd303d9c80e6f44]
+link webpack to server bundle--><path d="M376.98,210.5671 C334.25,225.0471 281.51,246.7471 240,275.9971 C202.6,302.3471 168.72,342.6371 146.96,371.6771 " fill="none" id="webpack-to-server bundle" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="143.84,375.8771,152.4207,371.0427,146.824,371.8651,146.0016,366.2684,143.84,375.8771" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="279" y="264.4922">returned bundle</text><!--MD5=[9b315374fa01df096fb1c089f57eaa7d]
+link webpack to client bundle--><path d="M531.25,206.9671 C579.42,220.8771 641.12,243.2371 689,275.9971 C726.74,301.8171 760.34,342.3871 781.74,371.6371 " fill="none" id="webpack-to-client bundle" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="784.81,375.8671,782.7635,366.2332,781.8742,371.8197,776.2877,370.9304,784.81,375.8671" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="672" y="264.4922">returned bundle</text><!--MD5=[ebcc6054b0aea772eb8c510442b32010]
+link bundle renderer to page browser--><path d="M166.33,154.9071 C214.01,126.1271 288.72,86.2671 360,69.9971 C441.89,51.3071 466.76,52.8771 549,69.9971 C624.7,85.7571 705.19,123.9071 758.4,152.4871 " fill="none" id="bundle renderer-to-page browser" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="762.82,154.8771,756.7952,147.086,758.4186,152.5049,752.9996,154.1283,762.82,154.8771" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="424.5" y="43.4922">returned page</text><!--MD5=[1c223ac01b08c7c40f9309d9e5823ebb]
+@startuml spa_client_site_university
+
+title Диаграмма компонентов №2 "Клиентское приложение сайта вуза"
+
+
+'Сборщик js модулей
+[webpack] <<module bundler>>
+
+
+' Клиентское приложение
+package "client aplication" as source <<quasar aplication>> {
+    ' Объявление компонентов
+    [qusar client] <<Vue js aplication>>
+    [server entry] <<Express js aplication>>
+    [client entry] <<Vue js App component>>
+    ' Объявление отношений
+    [qusar client] <- - [server entry]
+    [qusar client] <- - [client entry]
+}
+
+
+' Node js сервер
+package "node js srver" as node_js_server <<node js server>> {
+    ' Объявление компонентов
+    [server bundle] <<vue ssr server>>
+    [bundle renderer] <<vue server render>>
+    ' Объявление отношений
+    [bundle renderer] <- - [server bundle]
+}
+
+
+' Браузер пользователя
+package "user browser" as user_browser <<user browser>> {
+    ' Объявление компонентов
+    [client bundle] <<html, js, css>>
+    [page browser] <<browser component>>
+    ' Объявление отношений
+    [page browser] <- - [client bundle]
+}
+
+
+' Объявление отношений компонентов подсистем
+
+' Сборка исходного кода клиентского приложения
+[webpack] <.. [qusar client] : build
+' Возвращение скомпилированых исходников
+[webpack] ..> [server bundle] : returned bundle
+[webpack] ..> [client bundle] : returned bundle
+' Серверный рендеринг
+[bundle renderer] .right.> [page browser] : returned page
+
+@enduml
+
+@startuml spa_client_site_university
+
+title Диаграмма компонентов №2 "Клиентское приложение сайта вуза"
+
+
+[webpack] <<module bundler>>
+
+
+package "client aplication" as source <<quasar aplication>> {
+    [qusar client] <<Vue js aplication>>
+    [server entry] <<Express js aplication>>
+    [client entry] <<Vue js App component>>
+    [qusar client] <- - [server entry]
+    [qusar client] <- - [client entry]
+}
+
+
+package "node js srver" as node_js_server <<node js server>> {
+    [server bundle] <<vue ssr server>>
+    [bundle renderer] <<vue server render>>
+    [bundle renderer] <- - [server bundle]
+}
+
+
+package "user browser" as user_browser <<user browser>> {
+    [client bundle] <<html, js, css>>
+    [page browser] <<browser component>>
+    [page browser] <- - [client bundle]
+}
+
+
+
+[webpack] <.. [qusar client] : build
+[webpack] ..> [server bundle] : returned bundle
+[webpack] ..> [client bundle] : returned bundle
+[bundle renderer] .right.> [page browser] : returned page
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 20:25:22 MSK 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

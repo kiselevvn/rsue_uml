@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="420px" preserveAspectRatio="none" style="width:529px;height:420px;background:#FFFFFF;" version="1.1" viewBox="0 0 529 420" width="529px" zoomAndPan="magnify"><defs><filter height="300%" id="ftuq3me1o7bfd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="520" x="2" y="18.6855">Диаграмма компонентов №1 "Сервер приложения сайта вуза"</text><!--MD5=[faad0f0e7f13faf098622c4536db09e2]
+cluster source--><polygon fill="#FFFFFF" filter="url(#ftuq3me1o7bfd)" points="101.75,28.6406,183.75,28.6406,190.75,52.25,317.75,52.25,317.75,413.6406,101.75,413.6406,101.75,28.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="101.75" x2="190.75" y1="52.25" y2="52.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="105.75" y="45.1738">webserver</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="123" x="152.25" y="68.7832">«django aplication»</text><!--MD5=[8824c66cba45be527cf3dd56bcd70cd2]
+entity nginx--><rect fill="#FEFECE" filter="url(#ftuq3me1o7bfd)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="133" x="129.25" y="332.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="242.25" y="337.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="240.25" y="339.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="240.25" y="343.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="93" x="144.25" y="367.1738">«proxy server»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="174.25" y="384.7832">nginx</text><!--MD5=[5e67846c1852ac6a3dde0d5eafaea012]
+entity gunicorn--><rect fill="#FEFECE" filter="url(#ftuq3me1o7bfd)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="170" x="122.75" y="207.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="272.75" y="212.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="270.75" y="214.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="270.75" y="218.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="130" x="137.75" y="242.1738">«python http server»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="175.25" y="259.7832">gunicorn</text><!--MD5=[80ea6e280f4959bdbbe4658ef4c485d5]
+entity backend site university--><rect fill="#FEFECE" filter="url(#ftuq3me1o7bfd)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="184" x="117.75" y="82.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="281.75" y="87.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="279.75" y="89.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="279.75" y="93.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="123" x="143.25" y="117.1738">«python aplication»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="132.75" y="134.7832">backend site university</text><!--MD5=[5f2f9dbbee692058d60489180693f774]
+entity users--><ellipse cx="58.75" cy="240.1406" fill="#FEFECE" filter="url(#ftuq3me1o7bfd)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="41.25" y="271.6738">users</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><rect fill="#FEFECE" filter="url(#ftuq3me1o7bfd)" height="65.2188" style="stroke:#A80036;stroke-width:1.5;" width="154" x="333.75" y="207.6406"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="467.75" y="212.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="465.75" y="214.6406"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="465.75" y="218.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="114" x="348.75" y="242.1738">«postgres server»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="396.25" y="259.7832">DB</text><!--MD5=[b98ad2a78e615fdc73047dd8c72b4805]
+link backend site university to gunicorn--><path d="M209.15,153.1006 C208.9,168.7006 208.6,186.8206 208.35,202.3906 " fill="none" id="backend site university-gunicorn" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="208.26,207.5706,212.4137,198.6405,208.3457,202.5714,204.4149,198.5034,208.26,207.5706" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="209.23,147.8206,205.1018,156.7626,209.1586,152.8201,213.101,156.8768,209.23,147.8206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[013f633f200936ab3e06b6c1c68687d9]
+link gunicorn to nginx--><path d="M204.14,278.1006 C202.62,293.7006 200.85,311.8206 199.33,327.3906 " fill="none" id="gunicorn-nginx" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="198.83,332.5706,203.6838,324.0009,199.3148,327.5942,195.7215,323.2252,198.83,332.5706" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="204.66,272.8206,199.8062,281.3904,204.1752,277.7971,207.7685,282.1661,204.66,272.8206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8ea3e6473c694d28d6e9ea952caa4966]
+link users to nginx--><path d="M71.49,252.5806 C90.75,269.8706 128.06,303.3706 156.8,329.1706 " fill="none" id="users-nginx" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="160.61,332.5906,156.5791,323.6044,156.8872,329.2529,151.2387,329.561,160.61,332.5906" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="67.74,249.2106,71.7538,258.2045,71.4565,252.5554,77.1055,252.2581,67.74,249.2106" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[80c1a56be2af9d3e85cfedcea9f39943]
+link backend site university to DB--><path d="M265.52,150.2706 C293.29,167.2606 326.79,187.7606 354.62,204.7906 " fill="none" id="backend site university-DB" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="359.03,207.4906,353.422,199.3943,354.759,204.8909,349.2624,206.2279,359.03,207.4906" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="261.25,147.6606,266.8383,155.7706,265.5146,150.2708,271.0145,148.9472,261.25,147.6606" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0280e78156183476b1be8f0eef8a506c]
+@startuml backend_site_university
+
+title Диаграмма компонентов №1 "Сервер приложения сайта вуза"
+
+
+' Клиентское приложение
+package "webserver" as source <<django aplication>> {
+    ' Объявление компонентов
+    [nginx] <<proxy server>>
+    [gunicorn] <<python http server>>
+    [backend site university] <<python aplication>>
+    ' Объявление отношений
+    [backend site university] <..> [gunicorn]
+    [gunicorn] <..> [nginx]
+}
+
+' Объявление отношений компонентов системы
+[nginx] <.up.> users
+[DB] <<postgres server>>
+[backend site university] <..> [DB]
+
+@enduml
+
+@startuml backend_site_university
+
+title Диаграмма компонентов №1 "Сервер приложения сайта вуза"
+
+
+package "webserver" as source <<django aplication>> {
+    [nginx] <<proxy server>>
+    [gunicorn] <<python http server>>
+    [backend site university] <<python aplication>>
+    [backend site university] <..> [gunicorn]
+    [gunicorn] <..> [nginx]
+}
+
+[nginx] <.up.> users
+[DB] <<postgres server>>
+[backend site university] <..> [DB]
+
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 20:25:22 MSK 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

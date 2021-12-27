@@ -1,0 +1,22 @@
+@startuml
+
+title "Диаграма последовательности "Взаимодействия клиента и сервера""
+
+
+actor User as "User"
+participant JSClient as "JS client"
+participant InterfaceComponent as "Interface component"
+participant DjangoServer as "Python server"
+
+User --> JSClient : interacts
+JSClient --> InterfaceComponent : change state
+InterfaceComponent --> InterfaceComponent : render
+InterfaceComponent --> DjangoServer : request
+DjangoServer --> DjangoServer : handling request
+DjangoServer --> InterfaceComponent : response
+InterfaceComponent --> InterfaceComponent : change state
+InterfaceComponent --> InterfaceComponent : render
+InterfaceComponent --> JSClient : display result
+JSClient --> User : get result
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml users
+
+title "Диаграмма классов "Пользователи""
+
+enum UserRole {
+    ' Пользовательские роли
+    id: Integer
+    name: String
+}
+
+enum UserPermissions {
+    ' Пользовательские разрешения
+    id: Integer
+    name: String
+}
+
+class User{
+    ' Пользователь
+    id: Integer
+    email: String
+    password: String
+    password_salt: String
+    frontend_settings: Json
+    last_name: String
+    first_name: String
+    second_name: String
+    date_birth: Date
+}
+User : get_full_name() : string
+User : send_email(Mail mail_object) : void
+
+' Объявление отношений подсистемы
+User *-- UserRole
+User *--* UserPermissions
+
+@enduml

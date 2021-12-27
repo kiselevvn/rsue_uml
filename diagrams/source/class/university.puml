@@ -1,0 +1,43 @@
+@startuml university
+
+title "Диаграмма классов "Структура ВУЗа""
+
+enum LevelEducation {
+    ' Уровень образования
+    id: Integer
+    name: String
+}
+
+class Faculty {
+    ' Факультет
+    id: Integer
+    name: String
+    level_education: Integer
+}
+
+class Department {
+    ' Кафедра
+    id: Integer
+    name: String
+
+}
+
+class Campus {
+    ' Корпус
+    id: Integer
+    address: String
+}
+
+class Audience {
+    ' Аудитория
+    id: Integer
+    number: String
+    extra_settings: Json
+}
+
+' Объявление отношений подсистемы
+Audience *-- Campus
+Department *-- Faculty
+Faculty *-- LevelEducation
+
+@enduml
