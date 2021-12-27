@@ -1,5 +1,6 @@
-@startuml
-title Диаграмма вариантов использования сайта РГЭУ(РИНХ)
+@startuml users_site
+
+title Диаграмма "Пользователи сайта"
 
 ' left to right direction
 
