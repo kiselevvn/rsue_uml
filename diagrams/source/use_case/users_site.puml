@@ -2,14 +2,13 @@
 
 title Диаграмма "Пользователи сайта"
 
-' left to right direction
 
 ' Обявление актеров
 actor "Сотрудник" as employee
 actor "Преподователь" as teacher
 actor "Студент" as student
 
-
+' Обявление вариантов использования
 usecase "Просмотр нормативных документов" as UC1
 usecase "Просмотр медиа контента" as UC2
 usecase "Просмотр информации\n для студентов" as UC3
@@ -18,6 +17,7 @@ usecase "Использование подсистемы\n расписания 
 usecase "Использование подсистемы\n расписания для преподователей" as UC6
 usecase "Использование подсистемы\n расписания 'занятость аудиторий'" as UC7
 
+' Обявление отношений
 UC1 <|-- employee
 UC1 <|-- teacher
 UC1 <|-- student
@@ -38,6 +38,8 @@ UC5 <|-up- student
 UC6 <|-up- teacher
 
 UC7 <|-up- employee
+UC7 <|-up- student
+UC7 <|-up- teacher
 
 
 @enduml

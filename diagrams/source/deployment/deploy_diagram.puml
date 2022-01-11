@@ -2,7 +2,8 @@
 
 title "Диаграмма равзвертывания"
 
-actor developers
+actor developer
+actor user
 
 node git
 node production
@@ -20,11 +21,12 @@ package "Jenkins server" as jenkins {
 }
 
 
-developers .> git : send commit
+developer .> git : send commit
 
 git ..> build
 build <.. secrets : send secret
 deploy ..> production
+user .right.> production : interact
 
 
 @enduml

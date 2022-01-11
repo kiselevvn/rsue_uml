@@ -1,17 +1,19 @@
 @startuml guests_site
+
 title Диаграмма "Гости сайта"
 
-' left to right direction
 
 ' Обявление актеров
 actor "Абитуриент" as entrant
 actor "Выпускник" as graduate
 actor "Родитель" as parent
 
+' Обявление вариантов использования
 usecase "Просмотр нормативных документов" as UC1
 usecase "Просмотр медиа контента" as UC2
 usecase "Просмотр информации\n для абитуриентов" as UC3
 
+' Обявление отношений
 UC1 <|-- entrant
 UC1 <|-- graduate
 UC1 <|-- parent

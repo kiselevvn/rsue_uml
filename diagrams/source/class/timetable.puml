@@ -26,7 +26,6 @@ class LessonType {
 class Lesson {
     ' Занятие
     id: Integer
-    order: Integer
     lesson_type_id: Integer
     week_id: Integer
     audience_id: Interger

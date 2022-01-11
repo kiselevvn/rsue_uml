@@ -13,13 +13,13 @@
 
 ## Диаграммы Use case
 
-1. Диаграмма "Гости сайта" [svg](diagrams/build/use_case/guests_site/guests_site.svg)
-1. Диаграмма "Пользователи сайта" [svg](diagrams/build/use_case/users_site/users_site.svg)
+1. Диаграмма "Гости сайта" [svg](diagrams/build/use_case/guests_site/guests_site.svg) [png](diagrams/build/use_case/users_site/users_site.png)
+1. Диаграмма "Пользователи сайта" [svg](diagrams/build/use_case/users_site/users_site.svg) [png](diagrams/build/use_case/users_site/users_site.png)
 
 ## Диаграммы компонентов
 
-1. Диаграмма компонентов №1 "Сервер приложения сайта вуза" [svg](diagrams/build/component/backend_site_university/backend_site_university.svg)
-1. title Диаграмма компонентов №2 "Клиентское приложение сайта вуза" [svg](diagrams/build/component/client_site_university/spa_client_site_university.svg)
+1. Диаграмма компонентов "Сервер приложения сайта вуза" [svg](diagrams/build/component/backend_site_university/backend_site_university.svg)
+1. title Диаграмма компонентов "Клиентское приложение сайта вуза" [svg](diagrams/build/component/client_site_university/spa_client_site_university.svg)
 
 ## Диаграма последовательности
 

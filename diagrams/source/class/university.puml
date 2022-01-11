@@ -1,6 +1,7 @@
 @startuml university
 
-title "Диаграмма классов "Структура ВУЗа""
+title "Диаграмма классов "Университет""
+
 
 enum LevelEducation {
     ' Уровень образования
@@ -12,14 +13,15 @@ class Faculty {
     ' Факультет
     id: Integer
     name: String
-    level_education: Integer
+    short_name: String
+    level_education_id: Integer
 }
 
 class Department {
     ' Кафедра
     id: Integer
     name: String
-
+    short_name: String
 }
 
 class Campus {
